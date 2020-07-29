@@ -1,0 +1,4 @@
+terminals: {a, b}
+
+S -> b A | A a | a S b
+a -> a A | b A | _
