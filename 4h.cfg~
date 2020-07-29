@@ -1,0 +1,9 @@
+terminals: {a, b, c}
+
+S -> U | V
+U -> U c | V
+V -> a a V b | _
+W -> a W | X
+X -> b Y | Z c
+Y -> b Y | b Y c | _
+Z -> Z c | b Z c | _
