@@ -1,0 +1,7 @@
+terminals: {a, b}
+
+S -> U | V
+U -> a U | X
+V -> V c | Y
+X -> b X c | _
+Y -> a Y b | _
