@@ -1,0 +1,5 @@
+terminals: {a, b, c}
+
+S -> S c c c | a S c | Y X
+X -> b X c c | _
+Y -> a Y b | a a a Y | Y b b b
